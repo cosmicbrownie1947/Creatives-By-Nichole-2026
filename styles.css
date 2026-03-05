@@ -132,7 +132,19 @@ padding-left:20px;
 margin-bottom:10px;
 }
 
+.contact{
+display:flex;
+align-items:center;
+gap:40px;
+margin-top:40px;
+}
 
+.contact-photo{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+}
 
 /* GAME PREVIEW */
 

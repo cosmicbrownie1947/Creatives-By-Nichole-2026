@@ -77,6 +77,93 @@ color:#9FB2A4;
 margin-bottom:20px;
 }
 
+/* SIP HERO */
+
+.sip-hero{
+background:#1a1a1a;
+color:white;
+text-align:center;
+padding:100px 40px;
+}
+
+.sip-hero h1{
+font-size:60px;
+color:#9FB2A4;
+margin-bottom:10px;
+}
+
+.sip-subtitle{
+font-size:20px;
+color:#A9B7C6;
+}
+
+.sip-student{
+margin-top:10px;
+font-size:16px;
+}
+
+
+/* DESCRIPTION */
+
+.sip-description{
+max-width:800px;
+margin:auto;
+padding:80px 20px;
+line-height:1.7;
+}
+
+.sip-description h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+
+/* PROOF OF CONCEPT */
+
+.sip-proof{
+padding:80px 20px;
+background:#F9FAFB;
+text-align:center;
+}
+
+.proof-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+max-width:900px;
+margin:auto;
+margin-top:30px;
+}
+
+.proof-grid img{
+width:100%;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* EXPERIENCE BUTTON */
+
+.sip-play{
+text-align:center;
+padding:80px 20px;
+}
+
+.experience-btn{
+display:inline-block;
+background:#9FB2A4;
+color:white;
+padding:16px 32px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+}
+
+.experience-btn:hover{
+background:#8CA596;
+}
+
 .feature-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));

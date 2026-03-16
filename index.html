@@ -3,17 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nichole Losh | Portfolio</title>
+<title>Creatives by Nichole | Portfolio</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+<!-- HEADER -->
+
 <header>
 <nav class="navbar">
 
 <div class="logo-small">
-<img src="LOGO1.png" alt="Portfolio by Nichole Logo">
+<img src="LOGO1.png" alt="Creatives by Nichole Logo">
 </div>
 
 <ul class="nav-links">
@@ -28,12 +30,15 @@
 </nav>
 </header>
 
+
+<!-- HERO -->
+
 <section class="hero">
 
 <div class="hero-container">
 
 <div class="hero-logo">
-<img src="LOGO1.png" alt="Portfolio by Nichole">
+<img src="LOGO1.png" alt="Creatives by Nichole">
 </div>
 
 <div class="hero-text">
@@ -46,7 +51,7 @@ Digital Marketing Major
 </p>
 
 <p>
-Specializing in photography, videography, branding, and digital marketing strategy.
+Photography, videography, and digital marketing projects that bring brands to life.
 </p>
 
 </div>
@@ -55,72 +60,150 @@ Specializing in photography, videography, branding, and digital marketing strate
 
 </section>
 
-<section class="overview">
 
-<h2>Welcome</h2>
+<!-- FEATURED PROJECTS -->
 
-<p>
-Welcome to my digital portfolio. This site showcases my work in marketing, media production,
-and brand development. My experience includes photography, videography, content creation,
-and digital marketing campaigns.
-</p>
+<section class="projects-preview">
+
+<h2>Featured Work</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<img src="project1.jpg" alt="Project 1">
+
+<h3>Project Title</h3>
+
+<p>Short caption describing this project.</p>
+
+<button onclick="openModal('modal1')" class="read-btn">
+Read More
+</button>
+
+</div>
+
+
+<div class="project-card">
+
+<img src="project2.jpg" alt="Project 2">
+
+<h3>Project Title</h3>
+
+<p>Short caption describing this project.</p>
+
+<button onclick="openModal('modal2')" class="read-btn">
+Read More
+</button>
+
+</div>
+
+
+<div class="project-card">
+
+<img src="project3.jpg" alt="Project 3">
+
+<h3>Project Title</h3>
+
+<p>Short caption describing this project.</p>
+
+<button onclick="openModal('modal3')" class="read-btn">
+Read More
+</button>
+
+</div>
+
+</div>
 
 </section>
 
-<section class="features">
 
-<h2>Areas of Focus</h2>
+<!-- PROJECT POPUPS -->
 
-<div class="feature-grid">
 
-<div class="feature-card">
-<h3>Photography</h3>
+<div id="modal1" class="modal">
+
+<div class="modal-content">
+
+<h2>Project Title</h2>
+
 <p>
-Product photography, lifestyle imagery, and visual storytelling for brands.
+Detailed description of this project. Explain what the project is,
+what your role was, and what skills were involved.
 </p>
+
+<button onclick="closeModal('modal1')" class="close-btn">
+Go Back
+</button>
+
 </div>
 
-<div class="feature-card">
-<h3>Videography</h3>
+</div>
+
+
+
+<div id="modal2" class="modal">
+
+<div class="modal-content">
+
+<h2>Project Title</h2>
+
 <p>
-Short-form video, social media content, and promotional marketing videos.
+More details about this project can go here.
 </p>
+
+<button onclick="closeModal('modal2')" class="close-btn">
+Go Back
+</button>
+
 </div>
 
-<div class="feature-card">
-<h3>Digital Marketing</h3>
+</div>
+
+
+
+<div id="modal3" class="modal">
+
+<div class="modal-content">
+
+<h2>Project Title</h2>
+
 <p>
-Content strategy, branding, and audience engagement through digital platforms.
+Additional explanation of the project can go here.
 </p>
-</div>
+
+<button onclick="closeModal('modal3')" class="close-btn">
+Go Back
+</button>
 
 </div>
 
-</section>
+</div>
 
-<section class="goals">
 
-<h2>Career Goals</h2>
-
-<ul>
-
-<li>Create compelling brand stories through visual media</li>
-<li>Develop marketing strategies that connect with audiences</li>
-<li>Work with innovative brands in media and marketing</li>
-<li>Continue growing skills in creative content production</li>
-
-</ul>
-
-</section>
+<!-- FOOTER -->
 
 <footer>
 
 <p>
-Portfolio by Nichole<br>
+Creatives by Nichole<br>
 Nichole Losh — Digital Marketing
 </p>
 
 </footer>
+
+
+<script>
+
+function openModal(id){
+document.getElementById(id).style.display = "flex";
+}
+
+function closeModal(id){
+document.getElementById(id).style.display = "none";
+}
+
+</script>
 
 </body>
 </html>

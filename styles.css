@@ -127,7 +127,7 @@ cursor:pointer;
 
 .modal-image{
 width:40%;
-max-height:500px;
+height:500px;
 overflow:hidden;
 }
 
@@ -137,6 +137,7 @@ overflow-y:auto;
 display:flex;
 flex-direction:column;
 gap:15px;
+padding-right:10px;
 }
 
 .close-btn{

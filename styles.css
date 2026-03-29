@@ -109,12 +109,13 @@ padding:80px 60px;
 .profile-container{
 display:flex;
 align-items:center;
-justify-content:space-between;
+justify-content:center;
 max-width:1100px;
 margin:auto;
-gap:60px;
+gap:60px; 
+}
 
-flex-direction:row; /* image left, text right */
+flex-direction:row; 
 }
 
 .profile-image{
